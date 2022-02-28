@@ -45,3 +45,5 @@ plt.show()
 print(df.isna())
 
 print(df['umpire3'].isna().head(10))
+
+print(df['umpire3'].isna().value_counts())
