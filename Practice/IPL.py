@@ -11,3 +11,6 @@ print(df['winner'].value_counts())
 df['winner'].value_counts(normalize=True).plot(kind='bar')
 plt.show()
 
+print(df['venue'].value_counts())
+df['venue'].value_counts(normalize=True).plot(kind='bar')
+plt.show()
