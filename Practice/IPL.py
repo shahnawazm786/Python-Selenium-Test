@@ -28,3 +28,5 @@ plt.show()
 
 # umpire
 print(df['umpire1'].value_counts().head(5))
+df['umpire1'].value_counts(normalize=True).head(5).plot(kind='pie')
+plt.show()
