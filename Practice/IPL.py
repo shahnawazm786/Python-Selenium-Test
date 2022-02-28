@@ -43,3 +43,5 @@ plt.show()
 
 #Null treatment
 print(df.isna())
+
+print(df['umpire3'].isna().head(10))
