@@ -18,3 +18,6 @@ plt.show()
 print(df.columns)
 
 print(df['player_of_match'].value_counts().head(5))
+df['player_of_match'].value_counts(normalize=True).head(5).plot(kind='pie')
+plt.show()
+
