@@ -50,3 +50,4 @@ print(df['umpire3'].isna().value_counts())
 
 df['umpire3'].isna().value_counts(normalize=True).plot(kind='pie')
 plt.show()
+
