@@ -16,3 +16,5 @@ df['venue'].value_counts(normalize=True).plot(kind='bar')
 plt.show()
 
 print(df.columns)
+
+print(df['player_of_match'].value_counts().head(5))
