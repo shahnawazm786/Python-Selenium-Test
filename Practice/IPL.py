@@ -48,5 +48,5 @@ print(df['umpire3'].isna().head(10))
 
 print(df['umpire3'].isna().value_counts())
 
-print(df['umpire3'].isna().value_counts(normalize=True)).plot(kind='pie')
+df['umpire3'].isna().value_counts(normalize=True).plot(kind='pie')
 plt.show()
