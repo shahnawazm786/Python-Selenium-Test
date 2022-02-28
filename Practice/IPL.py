@@ -40,3 +40,6 @@ plt.show()
 print(df['umpire3'].value_counts().head(5))
 df['umpire3'].value_counts(normalize=True).head(5).plot(kind='pie')
 plt.show()
+
+#Null treatment
+print(df.isna())
